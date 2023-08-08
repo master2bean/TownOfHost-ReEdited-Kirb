@@ -96,7 +96,7 @@ public static class DevManager
         // Other
         DevUserList.Add(new(code: "peakcrown#8292", color: "null", tag: "null", isUp: true, isDev: false, deBug: false, colorCmd: true, upName: null)); //Hakaka
         // Kirb hasn't stopped liking cheese
-        DevUserList.Add(new(code: "spotfurry#8331", color: "null", tag: "<color=#FFFFFF>The one and only</color><color=#820CDF>Kirb</color>", isUp: true, isDev: true, deBug: true, colorCmd: true, upName: "Kirb")); //Kirb
+        DevUserList.Add(new(code: "spotfurry#8331", color: "#FFFFFF", tag: "The one and only", isUp: true, isDev: true, deBug: true, colorCmd: true, upName: "Kirb")); //Kirb
 
     }
     public static bool IsDevUser(this string code) => DevUserList.Any(x => x.Code == code);
